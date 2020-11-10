@@ -1,8 +1,12 @@
 def square_array(array)
-  num = 0
-  while num < array.length do
-    array[num] = array[num]**2
-    num += 1 
-  end
-  return array
-end
+counter = 0
+new_array = []
+
+while counter < array.length do
+  
+  array**2
+  new_array = array**2
+  counter += 1 
+end 
+new_array
+end 
